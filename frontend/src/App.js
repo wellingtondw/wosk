@@ -4,10 +4,15 @@ import store from './store';
 
 import Routes from './routes'
 
+import Header from './components/Header'
+import Footer from './components/Footer'
+
 function App() {
   return (
     <Provider store={store}>
+      <Header/>
       <Routes />
+      <Footer />
     </Provider>
   );
 }
