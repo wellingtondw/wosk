@@ -2,12 +2,12 @@ import { Provider } from 'react-redux'
 
 import store from './store';
 
-import Home from './pages/Home'
+import Routes from './routes'
 
 function App() {
   return (
     <Provider store={store}>
-      <Home/>
+      <Routes />
     </Provider>
   );
 }
